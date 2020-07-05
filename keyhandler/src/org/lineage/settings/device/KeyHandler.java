@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokee.settings.device;
+package org.lineage.settings.device;
 
 import android.content.Context;
 import android.hardware.input.InputManager;
