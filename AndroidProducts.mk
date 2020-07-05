@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_oscar.mk
+    $(LOCAL_DIR)/exthm_oscar.mk

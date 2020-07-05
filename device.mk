@@ -26,7 +26,7 @@ $(call inherit-product, vendor/smartisan/oscar/oscar-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-mokee
+    $(LOCAL_PATH)/overlay-lineage
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
@@ -49,15 +49,11 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.oscar
+    android.hardware.biometrics.fingerprint@2.0-service.oscar
 
 # Init
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/init/vendor,$(TARGET_COPY_OUT_VENDOR))
-
-# Input
-PRODUCT_PACKAGES += \
-    KeyHandlerOscar
 
 # IRQ
 PRODUCT_COPY_FILES += \
