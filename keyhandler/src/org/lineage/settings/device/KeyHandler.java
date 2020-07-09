@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokee.settings.device;
+package org.lineage.settings.device;
 
 import android.content.Context;
 import android.hardware.input.InputManager;
@@ -27,7 +27,7 @@ import android.view.ViewConfiguration;
 
 import com.android.internal.os.DeviceKeyHandler;
 
-import org.mokee.internal.util.FileUtils;
+import org.lineage.internal.util.FileUtils;
 
 public class KeyHandler implements DeviceKeyHandler {
 
